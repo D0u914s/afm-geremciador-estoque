@@ -55,13 +55,13 @@ const Auth = () => {
           <div className="mb-6 flex justify-center">
             <div className="bg-[#15457c] p-3 rounded-full flex items-center justify-center w-24 h-24 shadow-lg">
               <img 
-                src="/assets/logo.png" 
+                src="./assets/logo-afm.png" 
                 alt="AFM Logo" 
                 className="w-20 h-20 object-contain"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   target.onerror = null;
-                  target.src = "/placeholder.svg";
+                  target.src = "./assets/placeholder.svg";
                 }}
               />
             </div>
