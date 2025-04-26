@@ -13,20 +13,22 @@
     --card-foreground: 222.2 84% 4.9%;
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
-    --primary: 220 71% 23%;
-    --primary-foreground: 195 94% 97%;
+    --primary: 221 47% 28%;
+    --primary-foreground: 210 40% 98%;
     --secondary: 210 40% 96.1%;
     --secondary-foreground: 222.2 47.4% 11.2%;
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 203 69% 28%;
+    --accent: 210 40% 96.1%;
     --accent-foreground: 222.2 47.4% 11.2%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 220 71% 23%;
+    --ring: 221 47% 28%;
     --radius: 0.5rem;
+    --sidebar: 212 68% 29%; /* #15457c */
+    --sidebar-foreground: 0 0% 100%; /* white */
   }
  
   * {
@@ -34,6 +36,18 @@
   }
 
   body {
-    @apply bg-background text-foreground font-inter antialiased;
+    @apply bg-background text-foreground font-inter;
   }
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #16457d 0%, #133154 100%);
+}
+
+.card-hover {
+  transition: transform 0.2s ease-in-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
 }
