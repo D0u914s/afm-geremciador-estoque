@@ -1,72 +1,42 @@
-echo "# afm-geremciador-estoque" >> README.md 
+# AFM Gerenciador de Estoque
 
+Sistema de gerenciamento de estoque desenvolvido para AFM Peças, utilizando React e Supabase.
 
-# Welcome to your Lovable project
+## Funcionalidades
 
-## Project info
+- Gerenciamento de peças (entrada/saída)
+- Controle de estoque em tempo real
+- Sistema de autenticação de usuários
+- Rastreamento de pedidos
+- Geração de QR Code
+- Dashboard com estatísticas
+- Requisição de peças por setor
+- Upload de fotos das peças
+- Integração com banco de dados Supabase
 
-**URL**: https://lovable.dev/projects/9b5207b4-6565-4be5-9d19-6e100be5ccd7
+## Tecnologias Utilizadas
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9b5207b4-6565-4be5-9d19-6e100be5ccd7) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
 - Tailwind CSS
+- Supabase
+- React Query
+- React Hook Form
+- Lucide Icons
+- Date-fns
 
-## How can I deploy this project?
+## Configuração
 
-Simply open [Lovable](https://lovable.dev/projects/9b5207b4-6565-4be5-9d19-6e100be5ccd7) and click on Share -> Publish.
+1. Clone o repositório
+2. Instale as dependências com `npm install`
+3. Configure as variáveis de ambiente no arquivo `.env`
+4. Execute o projeto com `npm run dev`
 
-## I want to use a custom domain - is that possible?
+## Estrutura do Projeto
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+- `/src/components` - Componentes React
+- `/src/hooks` - Custom hooks
+- `/src/pages` - Páginas da aplicação
+- `/src/lib` - Utilitários e configurações
+- `/src/types` - Definições de tipos TypeScript
+- `/src/integrations` - Integrações com serviços externos
