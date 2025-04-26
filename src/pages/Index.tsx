@@ -5,11 +5,11 @@ const Index = () => {
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-background p-4">
       <img 
-        src="/lovable-uploads/d3d7ca62-0c1c-4ce7-bbc1-2484ae580fbe.png"
-        alt="Memorial Peças Grupos Logo"
+        src="./assets/logo.png"
+        alt="AFM Logo"
         className="w-64 h-64 mb-8"
       />
-      <h1 className="text-4xl font-bold mb-8">Gestão de Estoque Memorial</h1>
+      <h1 className="text-4xl font-bold mb-8">AFM Gerenciador de Estoque</h1>
       <div className="space-y-4">
         <Link to="/auth">
           <Button size="lg">

@@ -32,13 +32,13 @@ export function ProductSidebar({ onSelectSection, activeSection }: ProductSideba
         <div className="flex flex-col items-center gap-2">
           <div className="bg-white p-1 rounded-full flex items-center justify-center w-16 h-16 shadow-lg">
             <img 
-              src="/lovable-uploads/52c8d290-edde-4e97-aa7b-07c384a6b3ff.png" 
-              alt="Memorial Logo" 
+              src="./assets/logo.png" 
+              alt="AFM Logo" 
               className="w-14 h-14 object-contain"
               onError={(e) => {
                 const target = e.target as HTMLImageElement;
                 target.onerror = null;
-                target.src = "/placeholder.svg";
+                target.src = "./assets/placeholder.png";
               }}
             />
           </div>
