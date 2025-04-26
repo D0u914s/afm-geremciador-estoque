@@ -1,5 +1,4 @@
 import { 
-  PackageSearch, 
   ArrowDownToLine, 
   ArrowUpFromLine, 
   Search, 
@@ -8,8 +7,7 @@ import {
   Bot,
   Package,
   LayoutDashboard,
-  Truck,
-  Users
+  Truck
 } from "lucide-react"
 import {
   Sidebar,

@@ -22,9 +22,9 @@
   },
   "include": ["src"],
   "references": [{
-  "compilerOptions": {
-    "composite": true
-  }
-  // outras configurações...
-}
+    "path": "./tsconfig.node.json",
+    "compilerOptions": {
+      "composite": true
+    }
+  }]
 }
